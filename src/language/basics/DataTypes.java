@@ -12,8 +12,8 @@ public class DataTypes {
 		boolean orderPlaced = true;
 		System.out.println("Order Status : "+orderPlaced);
 		
-	//3. Person's phone number: "1234567890"
-		long phoneNumber = 1234567890L;
+	//3. Person's phone number: "123-456-7890"
+		String phoneNumber = "123-456-7890";
 		System.out.println("Phone Number : "+phoneNumber);
 		
 	//4. Amount of money in a customer's bank account: 1000.50
@@ -25,30 +25,30 @@ public class DataTypes {
 		System.out.println("E-Mail address : "+email);
 	
 	//6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
-		float coordinateLatitude = 37.7749f;
-		System.out.println("Coordinates of Latitude : "+coordinateLatitude);
+		double latitude = 37.7749;
+//		System.out.println("Coordinates of Latitude : "+coordinateLatitude);
 		
-		float coordinateLongitude = -122.4194f;
-		System.out.println("Coordinates of Longitude) : "+coordinateLongitude);
+		double longitude = -122.4194;
+		System.out.println("Coordinates of a location: Latitude = " + latitude + ", Longitude = " + longitude);
 		
 	//7. Person's marital status: true or false
-		boolean marriage = true;
-		System.out.println("Marital Status : "+marriage);
+		boolean ismarried = true;
+		System.out.println("Marital Status : "+ismarried);
 		
 	//8. Person's occupation: "Software Engineer"
-		String role = "Software Engineer";
-		System.out.println("Person's Occupation : "+role);
+		String occupation = "Software Engineer";
+		System.out.println("Person's Occupation : "+occupation);
 	
 	//9. Person's favourite colour: "Blue"
 		String favColor = "Blue";
 		System.out.println("Person's Favourite Colour : "+favColor);
 		
 	//10. Current year: 2023
-		String year = "2023";
+		int year = 2023;
 		System.out.println("Current Year : "+year);
 		
 	//11. Number of followers on a social media platform: 1,000,000
-		int followers = 1000000;
+		String followers = "1,000,000";
 		System.out.println("Number of followers on a social media platform : "+followers);
 		
 	//12. Rating of a movie: 7.5
@@ -64,7 +64,7 @@ public class DataTypes {
 		System.out.println("Title of a book : "+bookTitle);
 		
 	//15. Number of employees in a company: 500
-		short employeeCount = 500;
+		int employeeCount = 500;
 		System.out.println("Number of employees in a Company : "+employeeCount);
 		
 	//16. Time of an event: 2:30 PM
